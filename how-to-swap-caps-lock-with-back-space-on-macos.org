@@ -1,7 +1,7 @@
 #+title: How to swap Caps Lock with Backspace on macOS
 #+summary: Stop using Caps Lock as Caps Lock 😤, use it as Backspace you idiot.
 #+date: 2020-08-13T08:00:00
-#+tags[]: macos, tips, productivity
+#+tags[]: macos productivity
 
 ** Benefits
 
