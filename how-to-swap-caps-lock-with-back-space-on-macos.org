@@ -5,7 +5,7 @@
 
 ** Benefits
 
-Answer this: *How many more times do you press Caps Lock compared to Backspace?*
+*How many more times do you press Caps Lock compared to Backspace?*
 
 Let me tell you: *Fucking zero*.
 
@@ -15,7 +15,7 @@ Benefits for deleting with Caps Lock key:
 - Easier to reach key.
 - Reduce wrist pain.
 - Overall faster at typing.
-- Decreases the time you use spend returning to the google search bar.
+- Decreases the time you spend returning to the google search bar.
 - No more stress about "/Why such an important key is so annoying to reach?/".
 
 ** Test it
