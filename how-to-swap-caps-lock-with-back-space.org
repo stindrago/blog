@@ -1,0 +1,152 @@
+#+title: How to swap Caps Lock with Backspace on macOS
+#+summary: Stop using Caps Lock as Caps Lock 😤, use it as Backspace you idiot.
+#+date: 2020-08-13T08:00:00
+#+tags[]: macos, tips, productivity
+
+** Benefits
+
+Answer this: *How many more times do you press Caps Lock compared to Backspace?*
+
+Let me tell you: *Fucking zero*.
+
+Stop using Caps Lock as Caps Lock 😤, use it as Backspace you idiot.
+
+Benefits for deleting with Caps Lock key:
+- Easier to reach key.
+- Reduce wrist pain.
+- Overall faster at typing.
+- Decreases the time you use spend returning to the google search bar.
+- No more stress about "/Why such an important key is so annoying to reach?/".
+
+** Test it
+
+Let's swap the Caps Lock key with Backspace.
+
+Open the terminal =⌘ + space=, type =terminal= and press return =⏎=.
+
+Paste =⌘ + v= the following code in the terminal and run it with return =⏎=:
+
+#+begin_src shell
+hidutil property --set '{"UserKeyMapping":
+        [{"HIDKeyboardModifierMappingSrc":0x700000039,
+        "HIDKeyboardModifierMappingDst":0x70000002A},
+        {"HIDKeyboardModifierMappingSrc":0x70000002A,
+        "HIDKeyboardModifierMappingDst":0x700000039}]
+    }'
+#+end_src
+
+Now you will delete backwards with Caps Lock, and you will lock caps with Backspace.
+
+Anyway, if you are as crazy as me you may wanto to map the delete forward function to the
+Backspace key and the lock caps function to double Shift (press Left and
+Right Shift keys together).
+
+Sounds confusing? 🤯 More about this in a future article.
+
+** Make it persistent
+
+*** About
+
+Now that you tested how awesome is to delete with Caps Lock but you have no
+clue on how much time is required to get used to the new configuration lets make it persistent.
+
+Making the configuration peristent means that it will work next time you
+start the computer.
+
+If you know what you are doing, proceed. It will only take a feaw days to get
+used to the new configuration.
+
+Time to learn how to script!
+
+I am joking... you will just copy/paste 😆.
+
+First lets get out the way a rising question:  
+
+*Why the script shouldn't start at boot time but at user login?*
+
+Because this should not be a system configuration but an user one. If you don't
+know what it means, then trust me, this is the right way. /Didn't you trust
+everything you pasted in your terminal until now anyway? ...exactly/
+
+*** Configure
+
+Create two files.
+
+The first one ~~/.swap_clnbs.sh~ contains the =hidutil= command from above.
+
+The second one ~~/Library/LaunchAgents/com.user.loginscript.plist~ is the agent
+that runs the first file when you log in after starting the computer.
+
+In your terminal run:
+
+#+begin_src shell
+mkdir ~/Library/LaunchAgents/ #Dont worry if you get an error, it means you already have this directory.
+touch ~/.swap_clnbs.sh
+touch ~/Library/LaunchAgents/com.user.loginscript.plist
+#+end_src
+
+Give files execution permission:
+
+#+begin_src shell
+chmod +x ~/.swap_clnbs.sh
+chmod +x ~/Library/LaunchAgents/com.user.loginscript.plist
+#+end_src
+
+Edit the first file with your default editor:
+
+#+begin_src shell
+open -t ~/.swap_clnbs.sh
+#+end_src
+
+Now paste this and save the file:
+
+#+begin_src shell
+#!/bin/sh
+
+# Swap Caps Lock and Backspace keys
+hidutil property --set  \
+    '{"UserKeyMapping":
+        [{"HIDKeyboardModifierMappingSrc":0x700000039,
+        "HIDKeyboardModifierMappingDst":0x7000000A2},
+        {"HIDKeyboardModifierMappingSrc":0x7000000A2,
+        "HIDKeyboardModifierMappingDst":0x700000039}]
+    }'
+#+end_src
+
+Edit the second file:
+
+#+begin_src shell
+open -t ~/Library/LaunchAgents/com.user.loginscript.plist
+#+end_src
+
+Paste and save:
+
+#+begin_src shell
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Label</key>
+   <string>com.user.loginscript</string>
+   <key>ProgramArguments</key>
+   <array>
+      <string>/bin/sh</string>
+      <string>/Users/csdcostin/.swap_clnbs.sh</string>
+   </array>
+   <key>RunAtLoad</key>
+   <true/>
+</dict>
+</plist>
+#+end_src
+
+** Conclusions
+
+Well done! You are ready to swear 🤬 for a week.
+
+If you want to reset to the original configuration delete the second file.
+
+In your terminal once more, run:
+
+#+begin_src shell
+rm ~/Library/LaunchAgents/com.user.loginscript.plist
+#+end_src
