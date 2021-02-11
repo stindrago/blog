@@ -1,0 +1,215 @@
+#+title: Resume
+#+summary: Personal resume 📝.
+#+date: 2021-02-10T08:00:00
+#+tags[]: personal
+
+#+OPTIONS: toc:nil H:10 ':t
+#+LaTeX_HEADER: \usepackage{fa_orgmode_cv}
+
+** *Personal Data* 👤
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}
+|            <r> |                                                                                                                |
+|           Name | Costin Dragoi                                                                                                  |
+|            Age | 24                                                                                                             |
+|           Blog | [[https://blog.stindrago.com][blog.stindrago.com]]                                                                                             |
+|          Email | [[mailto:xxx@gmail.com][csdcostin@gmail.com]]                                                                                            |
+|         GitHub | [[https://github.com/stindrago][github.com/stindrago]]                                                                                           |
+|      Instagram | [[https://instagram.com/stindrago][instagram.com/stindrago]]                                                                                        |
+| Updated Resume | [[https://resume.stindrago.com][resume.stindrago.com]]                                                                                           |
+|    Looking for | System Administration and Software Developer (Front or Back-end) position.                                     |
+|    Description | For more info and portfolio visit my [[https://blog.stindrago.com][blog]] and [[https://github.com/stindrago  ][GitHub]] or contact me privately by email.                         |
+|        🇮🇹 GDPR | Autorizzo il trattamento dei dati personali contenuti nel mio curriculum in base art. 13 del D. Lgs. 196/2003. |
+
+** *Experience* ✨
+
+** DOORS - Con I Bambini
+
+📆 /Oct. 2019 - Jun. 2020/
+📍 [[https://goo.gl/maps/NpC4vk6NfKtGbgU87][Italy, AN, Fabriano]]
+
+🔨 *STEM Tutor*
+
+- Teaching STEM subjects to middle school students using LCL (Learning Creative
+  Learning) approach.
+- Organizing workshops.
+
+** City Hall
+
+📆 /Jun. 2018 - Nov. 2018/
+📍 [[https://goo.gl/maps/NpC4vk6NfKtGbgU87][Italy, AN, Fabriano]]
+
+🔨 *Job Fair with multiple roles*
+
+- Event planning.
+- Host manager in a co-working space.
+- Designing graphics for events and social posts.
+- Developing web pages with Wordpress.
+- Public relations.
+
+** Befair
+
+📆 /May. 2017 - Oct. 2017/
+📍 [[https://goo.gl/maps/NpC4vk6NfKtGbgU87][Italy, AN, Fabriano]]
+
+🔨 *Intership - Junior System Administrator and Software Developer*
+
+- BASH scripting.
+- GNU/Linux.
+- Debugging.
+- Configuring embedded systems.
+- Developing a solar monitoring system.
+
+** Bajada New Energy
+
+📆 /Mar. 2017 - May. 2017/
+📍 [[https://goo.gl/maps/sNdcdcCqoSVwPDyr5][Malta, Valletta]]
+
+🔨 *Intership - Solar and Photovoltaic Installer*
+
+- Install and maintain solar and photovoltaic plants.
+- Coordinate trainees on the working site.
+
+** *Memberships* 👥
+
+** Makerspace R. Sassi
+
+📆 2017 - 2020
+📍 [[https://goo.gl/maps/NpC4vk6NfKtGbgU87][Italy, AN, Fabriano]]
+
+🔨 *Core Member, Tutor*
+
+- Public speaking.
+- Event planning.
+- Teaching coding and electronics.
+- Arduino, Raspberry, Scratch, Lego Maindstorm.
+
+** PDPFSUG - PDP Free Software User Group
+
+📆 /2017 - PRESENT/
+📍 [[https://goo.gl/maps/NpC4vk6NfKtGbgU87][Italy, AN, Fabriano]]
+
+🔨 *Core Member*
+
+- Promoting Free Software and new technologies.
+
+** *Education* 📚
+
+** UNICAM - University of Camerino
+
+📆 /Oct. 2019 - PRESENT/
+📍 [[https://goo.gl/maps/NpC4vk6NfKtGbgU87][Italy, MC, Camerino]]
+
+🎓 *Candidate for bachelor's degree in computer science*
+
+** ITS - Istituto Tecnico Superiore Efficienza Energetica
+
+📆 /Nov. 2015 - Nov. 2017/
+📍 [[https://goo.gl/maps/xKP1T1PduXYFnS8XA][Italy, AN, Fabriano]]
+
+🎓 *Higher diploma in energy conversion efficiency*
+
+** Inlingua
+
+📆 /Mar. 2017/
+📍 [[https://goo.gl/maps/sNdcdcCqoSVwPDyr5][Malta, Valletta]]
+
+🎓 *Scholarhip english school level B1*
+
+** IIS Merloni Miliani - Istituto di Istruzione Superiore Merloni Miliani
+
+📆 /Sep. 2010 - Jul. 2015/
+📍 [[https://goo.gl/maps/xKP1T1PduXYFnS8XA][Italy, AN, Fabriano]]
+
+🎓 *Diploma in computer science*
+
+** A1 School Of English
+
+📆 /08 Sep. 2014 - 12 Sep. 2014/
+📍 [[https://goo.gl/maps/iRAhWdcRbFEcH5mg6][UK, London]]
+
+🎓 *Scholarhip english school level A1*
+
+** CES - Centre of English Studies
+
+📆 /05 Aug. 2014 - 22 Aug. 2014/
+📍 [[https://goo.gl/maps/GXxJdB9KMhZpve2A8][Ireland, Dublin]]
+
+🎓 *Scholarhip english school level B2*
+
+** PET - Cambridge English Language Assessment
+
+📆 /Mar. 2014 - Jun. 2014/
+📍 [[https://goo.gl/maps/xKP1T1PduXYFnS8XA][Italy, AN, Fabriano]]
+
+🎓 *Scholarhip english school level B1*
+
+** CRI - Italian Red Cross
+
+📆 /Apr. 2014 - Jun. 2014/
+📍 [[https://goo.gl/maps/xKP1T1PduXYFnS8XA][Italy, AN, Fabriano]]
+
+🎓 *Course in sanitary transport and ambulance aid*
+
+- Anatomy.
+- [[https://en.wikipedia.org/wiki/Basic_life_support][BLS-D (Basic Life Support and Defibrillation)]].
+- [[https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation][CPR (Cardio-Pulmonary Resuscitation)]].
+- [[https://en.wikipedia.org/wiki/Automated_external_defibrillator][AED (Automated External Defibrillator)]].
+
+** *Skills* 💪
+
+** Languages 🗣
+
+- 🇬🇧 English.
+- 🇮🇹 Italian.
+- 🇷🇴 Romanian.
+- 🇫🇷 French (learning).
+
+** Programming Languages 🧑‍💻
+
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align lp{0.85\textwidth}
+|        <r> |                                                                                                            |
+|    Clojure | My first choice language. 😁 I write both backend (Clojure) and fronted (ClojureScript) code.              |
+|       BASH | My favorite scripting language. I'm proficient with it.                                                    |
+|       Java | I use Java mainly for my school projects. I understand most of the syntax. It's my second choice language. |
+|       HTML | Yes!                                                                                                       |
+|        CSS | Yes!                                                                                                       |
+| JavaScript | Yeees! 😒                                                                                                  |
+
+** Sys Admin 💻
+
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align lp{0.85\textwidth}
+|        <r> |                                                                            |
+|      Shell | Day to day commands, Git, SSH, and more.                                   |
+|   Database | MySQL.                                                                     |
+| Web Server | NginiX, Jekyll and Hugo.                                                   |
+| Pentesting | nmap, Wireshark and more.                                                  |
+| Networking | Good understanding of the network infrastructure.                          |
+|       Misc | Disks partition, network, web server configuration and Linux server setup. |
+
+
+** Digital Art 🎭
+
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align lp{0.85\textwidth}
+|      <r> |                                                                                                 |
+| Software | Kdenlive, Gimp and Inkscape.                                                                    |
+|   Design | Photo and video editing, logo design, brochures, business cards, newsletters, posters and more. |
+
+**  Soft Skills 💪
+
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align lp{0.85\textwidth}
+|          <r> |                                                       |
+|  Personality | Independent, collaborative and creative               |
+| Organization | I ❤️ Kanban method.                                    |
+| Productivity | All round good problem solver.                        |
+|         Misc | Markdown for writing documentation and presentations. |
+
+** *Hobbies* ❤️
+
+- ✍️️ Writing fiction.
+- 🎼 Playing the flute.
+- 🏋 Gym.
