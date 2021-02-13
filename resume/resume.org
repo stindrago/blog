@@ -16,7 +16,7 @@
 |          Email | [[mailto:xxx@gmail.com][csdcostin@gmail.com]]                                                                                            |
 |         GitHub | [[https://github.com/stindrago][github.com/stindrago]]                                                                                           |
 |      Instagram | [[https://instagram.com/stindrago][instagram.com/stindrago]]                                                                                        |
-| Updated Resume | [[https://resume.stindrago.com][resume.stindrago.com]]                                                                                           |
+| Updated Resume | [[http://resume.stindrago.com][resume.stindrago.com]]                                                                                           |
 |    Looking for | System Administration and Software Developer (Front or Back-end) position.                                     |
 |    Description | For more info and portfolio visit my [[https://blog.stindrago.com][blog]] and [[https://github.com/stindrago  ][GitHub]] or contact me privately by email.                         |
 |        🇮🇹 GDPR | Autorizzo il trattamento dei dati personali contenuti nel mio curriculum in base art. 13 del D. Lgs. 196/2003. |
