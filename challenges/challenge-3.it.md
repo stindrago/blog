@@ -1,6 +1,6 @@
 ---
 title: "Challenge 3"
-summary: Benvenuto nella quinta challenge, difficoltà 🤕🤕. In questa challenge conoscerai i vantaggi del _version control_.
+summary: Benvenuto nella terza challenge, difficoltà 🤕🤕. In questa challenge conoscerai i vantaggi del _version control_.
 date: 2021-03-20
 tags: ["challenge-series","challenge-3"]
 ---

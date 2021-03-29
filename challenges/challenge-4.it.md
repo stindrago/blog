@@ -1,6 +1,6 @@
 ---
 title: "Challenge 4"
-summary: Benvenuto nella quinta challenge, difficoltà 🤕🤕🤕🤕. In questa challenge prenderai i panni di un _hacker_.
+summary: Benvenuto nella quarta challenge, difficoltà 🤕🤕🤕🤕. In questa challenge prenderai i panni di un _hacker_.
 date: 2021-03-27
 tags: ["challenge-series","challenge-4"]
 ---
