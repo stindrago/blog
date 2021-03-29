@@ -2,7 +2,7 @@
 title: "Challenge 1"
 summary: Benvenuto. In questa challenge scoprirai come installare e configurare una macchina linux. Questa è solo la prima challenge e presto ne seguiranno altre più difficili. Concentriamoci inizialmente a fornirti gli strumenti necessari per completare le challenge future.
 date: 2021-02-27
-tags: ["series" "challenge-series" "challenge-1"]
+tags: ["challenge-series","challenge-1"]
 ---
 
 [gitlab]: https://gitlab.com/
