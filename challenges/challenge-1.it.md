@@ -1,10 +1,11 @@
 ---
 title: "Challenge 1"
-summary: Benvenuto. In questa challenge scoprirai come installare e configurare una macchina linux. Questa è solo la prima challenge e presto ne seguiranno altre più difficili. Concentriamoci inizialmente a fornirti gli strumenti necessari per completare le challenge future.
-date: 2021-02-27
+summary: Benvenuto nella prmia challenge, difficoltà 🤕🤕. In questa challenge scoprirai come installare e configurare una macchina linux.
+date: 2021-03-06
 tags: ["challenge-series","challenge-1"]
 ---
 
+[pdpfsug]: https://pdp.linux.it
 [gitlab]: https://gitlab.com/
 [ubuntu-downlad-server]: https://ubuntu.com/download/server/
 [ubuntu-server-manual-download]: https://releases.ubuntu.com/20.04.2/ubuntu-20.04.2-live-server-amd64.iso/
@@ -16,7 +17,10 @@ tags: ["challenge-series","challenge-1"]
 
 # Challenge 1 - Installa Ubuntu
 
-Benvenuto. In questa challenge scoprirai come installare e configurare una macchina linux. Questa è solo la prima challenge e presto ne seguiranno altre più difficili. Concentriamoci inizialmente a fornirti gli strumenti necessari per completare le challenge future.
+Benvenuto nella prmia challenge, difficoltà 🤕🤕.
+In questa challenge scoprirai come installare e configurare una macchina linux.
+
+Questa è solo la prima di una serie di challenge creata per i membri del gruppo [PDP Free Software User Group][pdpfsug].
 
 ## In Questa Challenge
 
@@ -182,7 +186,7 @@ In questa challenge abbiamo imparato come che cosa si intende per sistema operat
 - Quali sono le tecnologie di virtualizzazione
 - Come creare con facilità una macchina virtuale con Multipass.
 
-## Challenge 1
+## Challenge
 
 - Crea 5 macchine virtuali in 1 minuto.
   + Una macchina _Ubuntu 16.04 LTS_ con nome "ubuntu-1604-LTS"
