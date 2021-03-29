@@ -9,6 +9,6 @@
 Shield: [![CC BY SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
-[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)][cc-by].
+[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)][cc-by-sa].
 
 [![CC BY SA 4.0][cc-by-sa-image]][cc-by-sa]
