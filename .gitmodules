@@ -1,0 +1,6 @@
+[submodule "unicam/unicam"]
+	path = unicam/unicam
+	url = git@gitlab.com:stindrago/unicam.git
+[submodule "challenges/challenges"]
+	path = challenges/challenges
+	url = git@gitlab.com:stindrago/challenges.git
